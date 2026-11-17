@@ -1,0 +1,25 @@
+# Never commit the dataset, scores or models (ZxData is licensed for academic use only)
+data/*
+!data/README.md
+*.xlsx
+*.xls
+*.csv
+*.csv.gz
+*.parquet
+*.joblib
+*.pkl
+*.pbix
+outputs/
+models/
+
+# Secrets and local settings
+.env
+*.env
+.aws/
+credentials*
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
